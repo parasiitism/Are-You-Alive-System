@@ -1,6 +1,6 @@
 import os
 
-ENV = os.getenv("ENV", "DEV")   # DEV | PROD
+ENV = os.getenv("ENV", "DEV")
 
-SMS_SENDER_ID = os.getenv("SMS_SENDER_ID", "LIFCHK")
-SMS_TEST_NUMBER = os.getenv("+919546566148")  # your personal number
+MSG91_AUTH_KEY = os.getenv("MSG91_AUTH_KEY", "")
+MSG91_TEMPLATE_ID = os.getenv("MSG91_TEMPLATE_ID", "")
