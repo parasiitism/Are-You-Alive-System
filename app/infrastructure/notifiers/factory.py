@@ -6,11 +6,8 @@ class NotificationFactory:
 
     @staticmethod
     def get_notifier(channel: str):
-        if channel == "sms":
-            return SMSNotifier()
-        elif channel == "email":
-            return EmailNotifier()
-        elif channel == "call":
-            return CallNotifier()
-        else:
-            raise ValueError("Unsupported notification channel")
+        return [
+            SMSNotifier(),
+            EmailNotifier(),
+            CallNotifier()
+        ]

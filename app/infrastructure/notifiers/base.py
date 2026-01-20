@@ -5,5 +5,5 @@ class Notifier(ABC):
     """
 
     @abstractmethod
-    def send(self, user_id: str, message: str):
+    def send(self,user,message: str):
         pass
