@@ -1,9 +1,20 @@
-from fastapi import APIRouter
-from app.storage.activity_store import update_alive
+from fastapi import APIRouter, Depends
+from sqlalchemy.orm import Session
+from datetime import datetime
 
-router = APIRouter(prefix="/alive", tags=["Alive"])
+from app.database import get_db
+from app.models.user import User
 
-@router.post("/{user_id}")
-def alive(user_id: str):
-    update_alive(user_id)
-    return {"status": "alive"}
+router = APIRouter()
+
+@router.post("/alive/{user_id}")
+def alive(user_id: str, db: Session = Depends(get_db)):
+    user = db.query(User).filter(User.id == user_id).first()
+
+    if not user:
+        return {"error": "User not found"}
+
+    user.last_alive_at = datetime.utcnow()
+    db.commit()
+
+    return {"status": "alive recorded"}

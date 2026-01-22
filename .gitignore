@@ -1,0 +1,17 @@
+# Python virtual environment
+alive/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local database files
+*.db
+
+# Environment variables
+.env
+
+# OS / Editor junk
+.DS_Store
+.idea/
+.vscode/
