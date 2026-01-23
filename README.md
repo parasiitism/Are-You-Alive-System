@@ -65,8 +65,15 @@ LifeCheck solves this by:
 
 
 
-![render](images/render.png)
-![home](images/home.jpeg)
-![landing_page](images/landing_page.jpeg)
-![registration_page](images/registration_page.jpeg)
-![execution_page](images/execution_page.jpeg)
+
+## 📸 Screenshots
+
+![Render Dashboard](images/render.png)
+
+![Home Screen](images/home.jpeg)
+
+![Landing Page](images/landing_page.jpeg)
+
+![Registration Page](images/registration_page.jpeg)
+
+![Execution Page](images/execution_page.jpeg)
