@@ -1,5 +1,6 @@
 import logging
 logging.basicConfig(level=logging.INFO)
+from app.routes.debug import router as debug_router
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -27,3 +28,5 @@ def root():
 app.include_router(user_router, prefix="/user")
 app.include_router(alive_router)
 app.include_router(location_router)
+app.include_router(debug_router)
+
