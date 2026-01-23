@@ -17,4 +17,8 @@ def alive(user_id: str, db: Session = Depends(get_db)):
     user.last_alive_at = datetime.utcnow()
     db.commit()
 
-    return {"status": "alive recorded"}
+    return {
+        "status":"ok",
+        "message":"Glad to hear about you ❤️",
+        "last_alive_at":user.last_alive_at
+    }

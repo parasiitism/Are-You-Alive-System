@@ -1,9 +1,7 @@
 from abc import ABC, abstractmethod
+
 class Notifier(ABC):
-    """
-    Base class for all notification channels
-    """
 
     @abstractmethod
-    def send(self,user,message: str):
+    def send(self, to: str, message: str):
         pass
