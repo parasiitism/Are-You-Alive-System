@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.models.user import User
-from app.models.emergency_contact import EmergencyContact
+from app.models.emergency_content import EmergencyContact
 
 router = APIRouter(prefix="/debug", tags=["Debug"])
 
