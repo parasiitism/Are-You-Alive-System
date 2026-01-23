@@ -1,20 +1,5 @@
 
 
-
-
-## 📸 Screenshots
-
-![Render Dashboard](images\render.png)
-
-![Home Screen](images\home.jpeg)
-
-![Landing Page](images\landing_page.jpeg)
-
-![Registration Page](images\registration_page.jpeg)
-
-![Execution Page](images\exection_page.jpeg)
-
-
 # 🫀 LifeCheck – Inactivity-Based Safety Alert System
 
 LifeCheck is a safety-focused mobile backend system that monitors user inactivity.
@@ -79,3 +64,14 @@ LifeCheck solves this by:
 |  - is_verified             |
 |  - last_active_at          |
 +----------------------------+
+
+
+
+
+![exection_page](https://github.com/user-attachments/assets/45216a51-a850-4185-8cd9-e926957decd7)
+
+![home](https://github.com/user-attachments/assets/d64f228b-406c-4e96-9559-4d6858248631)
+![landing_page](https://github.com/user-attachments/assets/b32187a2-a32c-43d0-bee3-b63458a85c50)
+
+![registration_page](https://github.com/user-attachments/assets/24f1a895-3f1d-4adf-a11d-82d9292e649c)
+<img width="1888" height="825" alt="render" src="https://github.com/user-attachments/assets/c1b7ef13-90aa-485f-9c02-ea4d9bce3fd8" />
