@@ -25,6 +25,12 @@ app.add_middleware(
 def root():
     return {"status": "Are You Alive backend running"}
 
+@app.post("/debug/ping")
+def debug_ping(payload: dict):
+    print("🔥 ANDROID HIT RENDER")
+    print("Payload:", payload)
+    return {"status": "pong", "received": payload}
+
 app.include_router(user_router, prefix="/user")
 app.include_router(alive_router)
 app.include_router(location_router)
