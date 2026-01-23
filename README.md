@@ -68,12 +68,12 @@ LifeCheck solves this by:
 
 ## 📸 Screenshots
 
-![Render Dashboard](C:\Users\hp\Desktop\Are-You-Alive-System\images\render.png)
+![Render Dashboard](images\render.png)
 
-![Home Screen](C:\Users\hp\Desktop\Are-You-Alive-System\images\home.jpeg)
+![Home Screen](images\home.jpeg)
 
-![Landing Page](C:\Users\hp\Desktop\Are-You-Alive-System\images\landing_page.jpeg)
+![Landing Page](landing_page.jpeg)
 
-![Registration Page](C:\Users\hp\Desktop\Are-You-Alive-System\images\registration_page.jpeg)
+![Registration Page](images\registration_page.jpeg)
 
-![Execution Page](C:\Users\hp\Desktop\Are-You-Alive-System\images\exection_page.jpeg)
+![Execution Page](images\exection_page.jpeg)
