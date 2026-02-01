@@ -9,6 +9,9 @@ class User(Base):
     email = Column(String, nullable=False)
     phone = Column(String, nullable=False)
 
+    password_hash=Column(String,nullable=True)
+
+
     last_alive_at = Column(DateTime, default=datetime.utcnow)
     alive_interval_hours = Column(Integer, default=48)
 

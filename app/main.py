@@ -1,5 +1,6 @@
 import logging
 logging.basicConfig(level=logging.INFO)
+
 from app.routes.debug import router as debug_router
 
 from fastapi import FastAPI
